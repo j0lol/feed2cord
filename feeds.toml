@@ -1,7 +1,7 @@
 [[feeds]]
 url = "https://feed.eugenemolotov.ru/?action=display&bridge=Twitter&context=By+username&u=energeticbark&format=Atom"
 pfp = "https://pbs.twimg.com/profile_images/1365907443268669441/jUrM7EVT_normal.jpg"
-webhook = "https://discord.com/api/webhooks/976890175365988484/c0W89PbhrwafGsOHJYrbPOKyp31q_5h8E34jAnPEyJtgXW1iUW71Leh99V34aSoULg96"
+webhook = ""
 
 [cache]
 cache = ["https://twitter.com/energeticbark/status/1526641075170967553", "https://twitter.com/energeticbark/status/1523178499095232512", "https://twitter.com/energeticbark/status/1523176470385881089", "https://twitter.com/energeticbark/status/1516899644495831042", "https://twitter.com/grahamlucario/status/1514786902657802252"]
