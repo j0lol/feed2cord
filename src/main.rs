@@ -38,7 +38,9 @@ fn main() {
 
         for i in load_feeds() {
             let mut entries = parse_feed( fetch(i.url.as_str().unwrap().to_string()) );
-            entries.drain(5..entries.len());
+            if entries.len() > 5 {
+                entries.drain(5..entries.len());
+                        }
 
             for j in entries {
                 let mut link = String::from("Placeholder");
@@ -54,6 +56,8 @@ fn main() {
                                 println!("Processing {}", link);
 
                 if !is_cached(link.as_str()) {
+
+                                        dbg!(&j.authors);
 
                     add_cache(link.as_str());
                     let webhook = WebhookEmbed {
