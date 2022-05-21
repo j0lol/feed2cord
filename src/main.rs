@@ -124,5 +124,5 @@ fn add_cache(value: &str) {
 
     let string = toml::to_string(&config).unwrap();
 
-    fs::write("feeds.toml", string.as_bytes()).expect("TODO: panic message");
+    fs::write("../feeds.toml", string.as_bytes()).expect("TODO: panic message");
 }
