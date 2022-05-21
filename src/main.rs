@@ -76,7 +76,7 @@ fn parse_feed(url: String) -> Vec<Entry> {
 }
 
 fn load_feeds() -> Vec<Feed> {
-    let config = match fs::read_to_string("feeds.toml") {
+    let config = match fs::read_to_string("../feeds.toml") {
         Ok(value) => value,
         Err(_) => unimplemented!(),
     };
@@ -104,7 +104,7 @@ fn hook(url: &str, webhook: WebhookEmbed) {
 }
 
 fn is_cached(value: &str) -> bool {
-    let config = match fs::read_to_string("feeds.toml") {
+    let config = match fs::read_to_string("../feeds.toml") {
         Ok(value) => value,
         Err(_) => unimplemented!(),
     };
@@ -113,7 +113,7 @@ fn is_cached(value: &str) -> bool {
     config.cache.cache.to_vec().contains(&toml::Value::from(value))
 }
 fn add_cache(value: &str) {
-    let config = match fs::read_to_string("feeds.toml") {
+    let config = match fs::read_to_string("../feeds.toml") {
         Ok(value) => value,
         Err(_) => unimplemented!(),
     };

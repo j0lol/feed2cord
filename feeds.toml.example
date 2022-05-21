@@ -1,0 +1,12 @@
+[[feeds]]
+url = ""
+pfp = ""
+webhook = ""
+
+[[feeds]]
+url = ""
+pfp = ""
+webhook = ""
+
+[cache]
+cache = []
