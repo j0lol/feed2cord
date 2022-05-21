@@ -1,7 +1,37 @@
 [[feeds]]
 url = "https://feed.eugenemolotov.ru/?action=display&bridge=Twitter&context=By+username&u=energeticbark&format=Atom"
 pfp = "https://pbs.twimg.com/profile_images/1365907443268669441/jUrM7EVT_normal.jpg"
-webhook = "https://discord.com/api/webhooks/976890175365988484/c0W89PbhrwafGsOHJYrbPOKyp31q_5h8E34jAnPEyJtgXW1iUW71Leh99V34aSoULg96"
+webhook = "https://discord.com/api/webhooks/976622647003738152/XkKh_JzibnDnmqtnj-16cj_uF-RZodE2LEBwkwZc-W-2hri1usytjlq_C8gkj1RUBTRY"
+
+[[feeds]]
+url = "https://feed.eugenemolotov.ru/?action=display&bridge=Twitter&context=By+username&u=FortniteDaily&format=Atom"
+pfp = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FNXjsnXwAQqU%2Fmaxresdefault.jpg&f=1&nofb=1"
+webhook = "https://discord.com/api/webhooks/976622647003738152/XkKh_JzibnDnmqtnj-16cj_uF-RZodE2LEBwkwZc-W-2hri1usytjlq_C8gkj1RUBTRY"
+
+[[feeds]]
+url = "https://feed.eugenemolotov.ru/?action=display&bridge=Twitter&context=By+username&u=WordleStats&format=Atom"
+pfp = "https://pbs.twimg.com/profile_images/1479692923906277376/UGwwca6k_400x400.jpg"
+webhook = "https://discord.com/api/webhooks/977600566790328401/Tj8wPXawKRgZMy__lFJXaDdOVT2tMLFUQb4lOt9S_EEuzbnnMOdOxpDy1Dhz7lvFZ7jH"
+
+[[feeds]]
+url = "https://rss-bridge.snopyta.org/?action=display&bridge=Youtube&context=By+channel+id&c=UCDLD_zxiuyh1IMasq9nbjrA&duration_min=&duration_max=&format=Atom"
+pfp = "http://www.impawards.com/2009/posters/nine_ver5.jpg"
+webhook = "https://discord.com/api/webhooks/976652233024348181/k1ECjHLhlzsdEBdJ4BRYtLtznj85EPxN4GNMkU4yBD1qKL91xwLW0KzydmBRQNTM9356"
+
+[[feeds]]
+url = "https://rss-bridge.snopyta.org/?action=display&bridge=Youtube&context=By+channel+id&c=UCNoO3VTV19Yaw5615kJZs4w&duration_min=&duration_max=&format=Atom"
+pfp = "https://news.topwirenews.com/wp-content/uploads/2021/01/youtube_tv_promo_codes.jpeg"
+webhook = "https://discord.com/api/webhooks/976622647003738152/XkKh_JzibnDnmqtnj-16cj_uF-RZodE2LEBwkwZc-W-2hri1usytjlq_C8gkj1RUBTRY"
+
+[[feeds]]
+url = "https://rss-bridge.snopyta.org/?action=display&bridge=Youtube&context=By+channel+id&c=UC4rqhyiTs7XyuODcECvuiiQ&duration_min=&duration_max=&format=Atom"
+pfp = "https://news.topwirenews.com/wp-content/uploads/2021/01/youtube_tv_promo_codes.jpeg"
+webhook = "https://discord.com/api/webhooks/976622647003738152/XkKh_JzibnDnmqtnj-16cj_uF-RZodE2LEBwkwZc-W-2hri1usytjlq_C8gkj1RUBTRY"
+
+[[feeds]]
+url = "https://rss-bridge.snopyta.org/?action=display&bridge=Youtube&context=By+channel+id&c=UCupEe06LzZhNpQG59jiQSRg&duration_min=&duration_max=&format=Atom"
+pfp = "https://news.topwirenews.com/wp-content/uploads/2021/01/youtube_tv_promo_codes.jpeg"
+webhook = "https://discord.com/api/webhooks/976622647003738152/XkKh_JzibnDnmqtnj-16cj_uF-RZodE2LEBwkwZc-W-2hri1usytjlq_C8gkj1RUBTRY"
 
 [cache]
-cache = ["https://twitter.com/energeticbark/status/1526641075170967553", "https://twitter.com/energeticbark/status/1523178499095232512", "https://twitter.com/energeticbark/status/1523176470385881089", "https://twitter.com/energeticbark/status/1516899644495831042", "https://twitter.com/grahamlucario/status/1514786902657802252"]
+cache = ["https://twitter.com/energeticbark/status/1523178499095232512", "https://twitter.com/energeticbark/status/1523176470385881089", "https://twitter.com/energeticbark/status/1516899644495831042", "https://twitter.com/grahamlucario/status/1514786902657802252", "https://www.youtube.com/watch?v=TRiIDrcixJY", "https://www.youtube.com/watch?v=RDmqIx_eNOQ", "https://www.youtube.com/watch?v=NCo84qqcpbw", "https://www.youtube.com/watch?v=wl4B5zc9eYE", "https://www.youtube.com/watch?v=_CVEUKlklgY", "https://www.youtube.com/watch?v=GQJ-HuXKOd0", "https://www.youtube.com/watch?v=8SwVnyth78I", "https://www.youtube.com/watch?v=ZckV2U6TiwU", "https://www.youtube.com/watch?v=xlYiRq9_Wv4", "https://www.youtube.com/watch?v=ZVE_KQBeqS8", "https://www.youtube.com/watch?v=vi1Y_ooMWuk", "https://www.youtube.com/watch?v=FbANUYQ1FB4", "https://www.youtube.com/watch?v=xZKU9Ader3I", "https://www.youtube.com/watch?v=HdHBS8aPdQU", "https://www.youtube.com/watch?v=EbJkN1QwcXU", "https://www.youtube.com/watch?v=l8LPepkJRbw", "https://www.youtube.com/watch?v=OJUkd0qBjLY", "https://www.youtube.com/watch?v=n-YliI8t8Bc", "https://www.youtube.com/watch?v=hrOdVtn5A_8", "https://twitter.com/energeticbark/status/1526641075170967553", "https://www.youtube.com/watch?v=eq5OaRgriic", "https://www.phoronix.com/scan.php?page=news_item&amp;px=System76-Scheduler-1.2", "https://www.phoronix.com/scan.php?page=news_item&amp;px=Google-PSP-Security-Protocol", "https://twitter.com/Cenauru/status/1526994365704306689", "https://www.youtube.com/watch?v=jxD986Yg0Bs", "https://www.youtube.com/watch?v=m5dg80x4tWA", "https://www.youtube.com/watch?v=L44xw-7JF10", "https://twitter.com/FNBRitemstore/status/1527655973661585409", "https://twitter.com/FNBRitemstore/status/1527650165242355718", "https://twitter.com/FNBRitemstore/status/1527439149829070850", "https://twitter.com/FNBRitemstore/status/1527076812861411334", "https://twitter.com/FNBRitemstore/status/1526900703674998784", "https://twitter.com/FortniteDaily/status/1527801514898731008", "https://twitter.com/FortniteDaily/status/1527801376432181248", "https://twitter.com/FortniteDaily/status/1527650548895342594", "https://twitter.com/FortniteDaily/status/1527438984669978624", "https://twitter.com/FortniteDaily/status/1527315836104454144", "https://www.youtube.com/watch?v=L62bsHbxXgo", "https://www.youtube.com/watch?v=d28_GJm_sZQ", "https://www.youtube.com/watch?v=EdwU5e8-37o", "https://twitter.com/WordleStats/status/1527695868128038912", "https://twitter.com/WordleStats/status/1527333467603623936", "https://twitter.com/WordleStats/status/1526971074197397504", "https://twitter.com/WordleStats/status/1526608684390010882", "https://twitter.com/WordleStats/status/1526246271761076224"]
