@@ -32,11 +32,7 @@ struct WebhookEmbed {
 }
 
 fn main() {
-<<<<<<< HEAD
-=======
-    loop {
-
-        for i in load_feeds() {
+    for i in load_feeds() {
             let mut entries = parse_feed( fetch(i.url.as_str().unwrap().to_string()) );
             if entries.len() > 5 {
                 entries.drain(5..entries.len());
@@ -72,53 +68,7 @@ fn main() {
 
             }
         }
-
-    sleep(time::Duration::from_secs(300));
->>>>>>> b595bbb2d893eb7c2da35ce966752d2090920ec2
-
-
-    
-        for i in load_feeds() {
-            let mut entries = parse_feed( fetch(i.url.as_str().unwrap().to_string()) );
-            if entries.len() > 5 {
-            	entries.drain(5..entries.len());
-			}
-			
-            for j in entries {
-                let mut link = String::from("Placeholder");
-                for k in j.links {
-                    if k.rel == Some("alternate".to_string()) {
-                        link = k.href.as_str().to_string()
-                    }
-                }
-                if link == String::from("Placeholder") {
-                    unimplemented!("Weird atom feed?")
-                }
-
-				println!("Processing {}", link);
-				
-                if !is_cached(link.as_str()) {
-
-					dbg!(&j.authors);
-
-                    add_cache(link.as_str());
-                    let webhook = WebhookEmbed {
-                        content: link,
-                        username: j.authors[0].name.clone().to_string(),
-                        pfp: i.pfp.as_str().unwrap().to_string()
-                    };
-                    
-                    sleep(time::Duration::from_secs(1));
-                    hook(i.webhook.as_str().unwrap(), webhook)
-                }
-                
-            }
-        }
-    }
-<<<<<<< HEAD
-=======
 }
->>>>>>> b595bbb2d893eb7c2da35ce966752d2090920ec2
 
 fn parse_feed(url: String) -> Vec<Entry> {
     let a = parser::parse(url.as_bytes());
